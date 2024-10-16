@@ -1,1 +1,3 @@
 # AES-Encryption-Decryption
+First, use the command python3 server.py <port number> <key>, where the <port number> is the port number and <key> is the 16-byte key (e.g., python3 server.py 1234 abcdefghnbfghasd).
+Then, use the command python3 client.py <server IP> <server port> <key> where <server IP> is the IP of the server, <server port> the port on which the server is listening, and <key> is the 16-byte encryption key (e.g. python3 client.py 127.0.0.1 1234 abcdefghnbfghasd). Input any message into the terminal for the client to send it encrypted using AES encryption and see the decrypted message on the server.
